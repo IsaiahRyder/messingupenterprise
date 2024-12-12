@@ -46,6 +46,10 @@ li a {
 li a:hover {
   color: #25B9BF;
 }
+
+#logout {
+  color: #fff;
+}
 /* End Header and Nav Section */
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -442,4 +446,24 @@ footer {
   font-size: x-large;
   background-color: #60ccf6;
   
+}
+
+/* End Login Page */
+
+/* Customer View Page */
+
+#Dashboard-Text {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+#PickaService {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
 }

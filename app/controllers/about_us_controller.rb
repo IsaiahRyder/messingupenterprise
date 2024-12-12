@@ -1,4 +1,4 @@
 class AboutUsController < ApplicationController
-  def aboutus
+  def index
   end
 end
