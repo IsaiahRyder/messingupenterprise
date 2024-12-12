@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Messing Up Enterprise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="imgs/Messingup.svg">
+</head>
+<body>
+<main>
+    <nav>
+        <ul id="NavMenu">
+            <img id="NavLogo" src="<%= asset_path 'Messingup.svg' %>" alt="Quantum Networks">
+            <p>Messing Up Enterprise</p>
+            <li><%= link_to 'Customer Login', login_path %></li>
+            <li><%= link_to 'Contact Us', contactus_path %></li>
+            <li><%= link_to 'About Us', aboutus_path %></li>
+            <li><%= link_to 'Services', services_path %></li>
+            <li><%= link_to 'Home', root_path %></li>
+        </ul>   
+    </nav>
+</main>
+<section id="Section1-Container">
+    <div id="Contact-Image-Container">
+        <img src="<%= asset_path 'aboutus.jpeg' %>" alt="Contact Us">
+        <div id="Overlay-Text">About Us</div>
+    </div>
+</section>
+<section id="VisionSection">
+    <div id="VisionContainer">
+        <div id="VisionPicture">
+            <img src="<%= asset_path 'consultjpeg.jpeg' %>" alt="">
+        </div>
+        <div id="VisionText">
+            <H1>Our Vision</H1>
+            <p>Get to know our vision</p>
+        </div>
+    </div>
+</section>
+<section id="GoalSection">
+    <div id="GoalContainer">
+        <div id="GoalText">
+            <h1>Our Goals</h1>
+            <p>Our Goal is to ....</p>
+        </div>
+        <div id="GoalPicture">
+            <img src="<%= asset_path 'goal.png' %>" alt="Goals">
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div id="FooterMainInfo">
+            <h3>Messing Up Enterprise</h3>
+            <p>Email Us: Support@Mestup.org</p>
+            <p>Mail Us: 1232 Forest Hills Dr., Pasadena CA 91232</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
