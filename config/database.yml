@@ -50,4 +50,4 @@ test:
 #
 production:
   <<: *default
-  url: <%= ENV["AH_MARIADB_STACKHERO_BLUE_DATABASE_URL"] %> 
+  url: <%= ENV["AH_MARIADB_STACKHERO_BLUE_DATABASE_URL_RUBY"] %> 
