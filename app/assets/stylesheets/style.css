@@ -168,6 +168,19 @@ background-color: #7e83ff;
 #Semibox\ right:hover {
   background-color:#7e83ff;
 }
+
+.contact-link {
+  color: #000; /* Set the text color */
+  text-decoration: none; /* Remove underline from the link */
+  padding: 5px 10px; /* Add some padding */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.contact-link:hover {
+  background-color: #007bff; /* Change the background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
 /* End Get Started Section */
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
