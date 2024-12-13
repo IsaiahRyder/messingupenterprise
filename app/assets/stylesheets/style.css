@@ -196,9 +196,44 @@ footer {
 
 /* End HomePage CSS */
 
-/* Being Service Page CSS */
+/* Begin Service Page CSS */
 
+#Service-Section {
+  padding: 20px;
+}
+  
+#Service-Container {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+}
+  
+#ServicePic {
+  display: flex;
+  justify-content: left;
+  width: 350px;
+  height: 200px;
+  border-radius: 25px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+  
+#ServicePic img {
+  width: initial;
+  height: initial;
+  object-fit: contain;
+}
 
+#ServiceText  {
+  justify-content: center;
+  text-align: justify;
+  width: 400px;
+  height: 100px;
+}
+
+#ServiceText h1 {
+  text-align: center;
+}
 
 /* End Service Page CSS */
 
