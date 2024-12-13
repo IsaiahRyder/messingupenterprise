@@ -270,6 +270,11 @@ footer {
   text-align: center;
 }
 
+#VisionText p {
+  width: 400px;
+  height: 300px;
+}
+
 #GoalSection {
   padding: 20px;
 }
@@ -294,6 +299,12 @@ footer {
   justify-content: center;
   text-align: center;
 }
+
+#GoalText p {
+  width: 400px;
+  height: 300px;
+}
+
 
 #GoalPicture img {
   width: initial;
